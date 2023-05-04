@@ -21,10 +21,6 @@ body{
 
 .dash-page{
   padding:50px !important;
-  /* position:relative; */
-  /* display: flex;
-  align-items: stretch;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: 300px 1fr;
   gap:40px;

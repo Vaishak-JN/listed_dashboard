@@ -22,7 +22,7 @@ body{
     justify-content: center;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 72px;
+    font-size: 56px;
     line-height: 88px;
 }
 
@@ -74,7 +74,7 @@ body{
     border-radius: 10px;
     gap: 5px;
     cursor: pointer;
-    flex-basis: 40%;
+    flex-basis: 50%;
 }
 
 .icon{
