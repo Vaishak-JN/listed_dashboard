@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding: 0;
+}
+.login-page{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner{
+    flex-basis: 35%;
+    color:white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+}
+
+.login{
+    flex-basis: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .heading{
+    margin: 10px 0;
+    font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+}
+.subtext{
+    margin: 10px 0;
+    font-family: 'Lato';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+}
+.login > div{
+    /* width:40%; */
+}
+.sigin-btns{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+
+    
+}
+.btn{
+    font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #858585;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+    cursor: pointer;
+    flex-basis: 40%;
+}
+
+.icon{
+    width:15px
+}
+
+.form{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 400px;
+}
+
+.form button{
+    
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-container > label{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.input-container>input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline:none;
+    background: #F5F5F5;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.form-text{
+    font-family: 'Lato';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #346BD5;
+}
+
+.register-text{
+    font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #858585;
+}
+
+.register-text a{
+    color: #346BD5;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1000px) {
+    .banner {
+            flex-basis: 35%;
+            font-size: 36px !important;
+            line-height:44px;
+        }
+    
+        .login {
+            flex-basis: 65%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+}
+@media screen and (max-width:800px) {
+    
+    .banner {
+            display: none;
+    }
+
+    .login {
+        flex-basis: 100vw;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0px;
+        
+    }
+        .login .heading {
+            margin: 10px 0;
+            font-size: 24;
+            line-height: 36px;
+        }
+    
+        .subtext {
+            margin: 10px 0;
+            font-size: 12px;
+            line-height: 14px;
+        }
+    
+        /* .login>div {
+            width:40%;
+        }
+     */
+        .sigin-btns {
+            margin-top: 10px;
+            gap: 5px;
+    
+    
+        }
+    
+        .btn {
+            font-size: 12px;
+            line-height: 15px;
+            padding: 10px;
+            gap: 5px;
+            flex-basis: 45%;
+        }
+    
+        .form {
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 20px;
+            gap: 20px;
+            width: 100%
+        }
+    
+        
+}
